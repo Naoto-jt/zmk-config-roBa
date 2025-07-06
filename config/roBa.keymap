@@ -82,7 +82,7 @@
             bindings = <
 &kp Q         &kp W             &kp E    &kp R               &kp T                                             &kp Y        &kp U  &kp I                    &kp O    &kp P
 &kp A         &kp S             &kp D    &kp F               &kp G        &kp LS(LG(S))         &kp MINUS      &kp H        &kp J  &kp K                    &kp L    &kp SEMI
-&kp Z         &kp X             &kp C    &kp V               &kp B        &lt 4 COLON           &kp EQUAL      &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp Z         &kp X             &kp C    &kp V               &kp B        &lt 4 COLON           &lt 5 EQUAL    &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LEFT_ALT  &kp LEFT_CONTROL  &kp TAB  &lt 6 INT_MUHENKAN  &lt 3 SPACE  &lt 1 INT_HENKAN      &kp BACKSPACE  &lt 2 ENTER                                           &lt 6 DEL
             >;
 
@@ -129,10 +129,10 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &msc SCRL_UP    &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
             >;
         };
 
