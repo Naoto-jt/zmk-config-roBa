@@ -106,7 +106,6 @@
             bindings = <&msc MOVE_Y(10)>, <&msc MOVE_Y(-10)>;
             tap-ms = <100>;
         };
-        };
     };
 
     keymap {
