@@ -103,7 +103,7 @@
         scroll_encoder: scroll_encoder {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc MOVE_Y(10)>, <&msc MOVE_Y(-10)>;
+            bindings = <&msc MOVE_Y(60)>, <&msc MOVE_Y(-60)>;
             tap-ms = <100>;
         };
     };
@@ -118,8 +118,7 @@
 &kp Z           &kp X             &kp C         &kp V        &kp B        &lt 5 COLON        &lt 4 RIGHT_ALT  &kp N        &kp M  &mt RIGHT_CONTROL COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN  &lt 6 RA(D)  &lt 3 SPACE  &lt 1 TAB          &kp BACKSPACE    &lt 2 ENTER                                           &lt 6 DEL
             >;
-
-            sensor-bindings = <&scroll_encoder>;
+         sensor-bindings = <&scroll_encoder &scroll_encoder>;
         };
 
         FUNCTION {
