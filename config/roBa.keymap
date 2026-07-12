@@ -53,6 +53,23 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+        mouse_click_left {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+            layers = <4>;
+        };
+
+        mouse_click_right {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+            layers = <4>;
+        };
+
+        mouse_click_middle {
+            bindings = <&mkp MB3>;
+            key-positions = <18 20>;
+            layers = <4>;
+        };
     };
 
     macros {
